@@ -11,16 +11,17 @@ const Search: FC<SearchProps> = () => {
         <>
         <Input 
         type='text' 
-        w="35%"
-        h="15%"
+        w="100%"
+        h="70%"
+        p="5%"
         bg="#F3F4F6"
         />
-        <Icon 
+        {/* <Icon 
         as={BiSearch}
         pos="absolute"
         left="1%"
         top="60%"
-        />
+        /> */}
         </>
      );
 }
