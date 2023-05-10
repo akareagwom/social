@@ -52,7 +52,120 @@ const Activity: FC<ActivityProps> = () => {
                         </Text>
                     </Box>
                 </Box>
-                
+                <Box>
+                    <Heading
+                    fontSize="13px">
+                        New
+                    </Heading>
+                    <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                </Box>
             </CardBody>
         </Card>
         </>
