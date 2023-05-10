@@ -6,7 +6,8 @@ import {
     CardFooter, 
     Heading,
     Box,
-    Text, 
+    Text,
+    Avatar, 
 } from '@chakra-ui/react'
 
 interface ActivityProps {
@@ -33,7 +34,25 @@ const Activity: FC<ActivityProps> = () => {
                 </Text>
             </CardHeader>
             <CardBody>
-
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Mentions
+                            </Heading>
+                        <Text
+                        fontSize="10px">
+                            2 stories mention you
+                        </Text>
+                    </Box>
+                </Box>
+                
             </CardBody>
         </Card>
         </>
