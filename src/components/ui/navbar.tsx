@@ -24,23 +24,36 @@ const Navbar: FC<NavbarProps> = () => {
                     Herosocial
                 </Heading>
             </Box>
-            <Box>
+            <Box 
+            w="40%"
+            // h="-20%"
+            // py="10%"
+
+            >
                 <Search/>
             </Box>
             <Box
+            w="15%"
+            alignItems="baseline"
             display="flex"
             justifyContent="space-between">
                 <Box>
                     <Icon as={MdOutlineAddBox}
                     borderRadius="50%"
                     bg="#F3F4F6" 
-                    alignItems="center"/>
+                    w="24px"
+                    h="24px"
+                    alignItems="center"
+                    p="20%"/>
                 </Box>
                 <Box>
                     <Icon as={BsCameraVideo}
                     borderRadius="50%"
                     bg="#F3F4F6" 
-                    alignItems="center"/>
+                    w="24px"
+                    h="24px"
+                    alignItems="center"
+                    p="20%"/>
                 </Box>
               
                 <Avatar

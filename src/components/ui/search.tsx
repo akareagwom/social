@@ -10,10 +10,10 @@ const Search: FC<SearchProps> = () => {
     return ( 
         <>
         <Input 
+        // variant={"unstyled"}
         type='text' 
-        w="100%"
-        h="70%"
-        p="5%"
+        // p="5%"
+        fontSize="12px"
         bg="#F3F4F6"
         />
         {/* <Icon 
