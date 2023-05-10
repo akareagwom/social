@@ -1,5 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import Navbar from "../components/ui/navbar";
+import Activity from "../components/ui/activity";
 
 
 
@@ -14,7 +15,9 @@ export default function Home() {
         >
           <Navbar/>
         </Box>
-        <Text>hola</Text>
+        <Box>
+          <Activity/>
+        </Box>
       </Box>
     </>
   )
