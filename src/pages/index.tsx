@@ -20,7 +20,13 @@ export default function Home() {
           <Story></Story>
         </Box>
         <Box
-        w="200%">
+        w="200%"
+        my="2%">
+          <Cards></Cards>
+        </Box>
+        <Box
+        w="200%"
+        my="2%">
           <Cards></Cards>
         </Box>
       </Box>

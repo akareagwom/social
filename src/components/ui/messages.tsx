@@ -56,10 +56,6 @@ const Messages: FC<MessagesProps> = () => {
             <CardBody>
                 
                 <Box>
-                    <Heading
-                    fontSize="13px">
-                        New
-                    </Heading>
                     <Box
                 display="flex"
                 >
@@ -70,11 +66,12 @@ const Messages: FC<MessagesProps> = () => {
                     px="4%">
                         <Heading
                         fontSize="13px">
-                            Mentions
+                            Jonn Jones
                             </Heading>
                         <Text
+                        color="#BDBDBD"
                         fontSize="10px">
-                            2 stories mention you
+                            Active 30m ago
                         </Text>
                     </Box>
                 </Box>
@@ -88,11 +85,12 @@ const Messages: FC<MessagesProps> = () => {
                     px="4%">
                         <Heading
                         fontSize="13px">
-                            Mentions
+                            Lex Luthor
                             </Heading>
                         <Text
+                        color="#BDBDBD"
                         fontSize="10px">
-                            2 stories mention you
+                           Active 45m ago
                         </Text>
                     </Box>
                 </Box>
@@ -106,11 +104,12 @@ const Messages: FC<MessagesProps> = () => {
                     px="4%">
                         <Heading
                         fontSize="13px">
-                            Mentions
+                            Shareya Hall
                             </Heading>
                         <Text
+                        color="#BDBDBD"
                         fontSize="10px">
-                            2 stories mention you
+                           Active 1h ago
                         </Text>
                     </Box>
                 </Box>
@@ -124,11 +123,12 @@ const Messages: FC<MessagesProps> = () => {
                     px="4%">
                         <Heading
                         fontSize="13px">
-                            Mentions
+                            Iris West
                             </Heading>
                         <Text
+                        color="#BDBDBD"
                         fontSize="10px">
-                            2 stories mention you
+                           Active 1h ago
                         </Text>
                     </Box>
                 </Box>
@@ -142,11 +142,12 @@ const Messages: FC<MessagesProps> = () => {
                     px="4%">
                         <Heading
                         fontSize="13px">
-                            Mentions
+                            Hal Jordan
                             </Heading>
                         <Text
+                        color="#BDBDBD"
                         fontSize="10px">
-                            2 stories mention you
+                           Active 2h ago
                         </Text>
                     </Box>
                 </Box>
@@ -160,15 +161,35 @@ const Messages: FC<MessagesProps> = () => {
                     px="4%">
                         <Heading
                         fontSize="13px">
-                            Mentions
+                            Oliver Queen
                             </Heading>
                         <Text
+                        color="#BDBDBD"
                         fontSize="10px">
-                            2 stories mention you
+                           Active 2h ago
                         </Text>
                     </Box>
                 </Box>
+                <Box
+                display="flex"
+                >
+                    <Avatar
+                    w="34px"
+                    h="34px"/>
+                    <Box
+                    px="4%">
+                        <Heading
+                        fontSize="13px">
+                            Barbara Gordon
+                            </Heading>
+                        <Text
+                        color="#BDBDBD"
+                        fontSize="10px">
+                           Active 3h ago
+                        </Text>
+                    </Box>
                 </Box>
+            </Box>
             </CardBody>
         </Card>
         </Box>

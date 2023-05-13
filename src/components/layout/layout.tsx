@@ -22,9 +22,16 @@ const Layout: FC<LayoutProps> = ({children}) => {
                     <SimpleGrid
                     columns={3}
                     spacing={1}>
-                    <Box>
-                        <Activity/>
-                        <Activity/>
+                    <Box
+                    mt="1.5%">
+                        <Box
+                        my="2%">
+                            <Activity/>
+                        </Box>
+                        <Box
+                        my="2%">
+                            <Activity/>
+                        </Box>
                     </Box>
                     <Box
                     w="120%"
@@ -32,8 +39,11 @@ const Layout: FC<LayoutProps> = ({children}) => {
                     >
                         {children}
                     </Box>
-                    <Box>
+                    <Box
+                    mt="1.5%">
+                        <Box>
                         <Messages/>
+                        </Box>
                     </Box>
                     
                     </SimpleGrid>

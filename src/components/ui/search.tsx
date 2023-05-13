@@ -10,11 +10,13 @@ const Search: FC<SearchProps> = () => {
     return ( 
         <>
         <Input 
-        // variant={"unstyled"}
+        variant={"unstyled"}
         type='text' 
-        // p="5%"
+        p="2%"
         fontSize="12px"
         bg="#F3F4F6"
+        border="none"
+        borderRadius="30px"
         />
         {/* <Icon 
         as={BiSearch}
