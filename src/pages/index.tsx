@@ -1,24 +1,32 @@
 import { Box, Text } from "@chakra-ui/react";
 import Navbar from "../components/ui/navbar";
 import Activity from "../components/ui/activity";
+import Layout from "../components/layout/layout";
+import Cards from "../components/ui/card";
+import Story from "../components/ui/story";
 
 
 
 export default function Home() {
   return (
     <>
+    <Layout>
       <Box
-      bg="#F3F4F6"
-      h="100vh">
+      overflow="hidden">
         <Box
-        
-        >
-          <Navbar/>
+        // w="150%"
+        overflow="hidden"
+        p="3%">
+          <Story></Story>
         </Box>
-        <Box>
-          <Activity/>
+        <Box
+        w="200%">
+          <Cards></Cards>
         </Box>
       </Box>
+      
+    </Layout>
+    
     </>
   )
 }

@@ -18,8 +18,8 @@ const Activity: FC<ActivityProps> = () => {
     return ( 
         <>
         <Card
-        w="27%"
-        m="1%">
+        w="77%"
+        mx="10%">
             <CardHeader>
                 <Box
                 display="flex"
