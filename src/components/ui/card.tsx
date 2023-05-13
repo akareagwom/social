@@ -29,7 +29,7 @@ const Cards: FC<CardsProps> = () => {
                     </Box>
                     <Text
                     fontSize="12px">
-                    Clark Kent   Hello, everyone! Lois and I are excited to announce the birth of our first child! I'm overjoyed to be a father, and I swear to do all in my power to love and care for our young child. I appreciate your love and support.
+                    Clark Kent   Hello, everyone! Lois and I are excited to announce the birth of our first child! I&apos;m overjoyed to be a father, and I swear to do all in my power to love and care for our young child. I appreciate your love and support.
                     </Text>
                 </CardBody>
             </Card>
