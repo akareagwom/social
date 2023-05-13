@@ -3,6 +3,7 @@ import { FC, ReactComponentElement, ReactNode } from "react";
 import Navbar from "../ui/navbar";
 import Activity from "../ui/activity";
 import Messages from "../ui/messages";
+import Suggest from "../ui/suggest";
 
 interface LayoutProps {
     children: ReactNode
@@ -35,7 +36,21 @@ const Layout: FC<LayoutProps> = ({children}) => {
                     </Box>
                     <Box
                     w="120%"
+                    maxW="100vw"
                     ml="-11.5%"
+                    overflowY="auto"
+                    css={{
+                        '&::-webkit-scrollbar': {
+                        width: '4px',
+                        },
+                        '&::-webkit-scrollbar-track': {
+                        width: '6px',
+                        },
+                        '&::-webkit-scrollbar-thumb': {
+                        background: '#000',
+                        borderRadius: '24px',
+                        },
+                    }}
                     >
                         {children}
                     </Box>
@@ -43,6 +58,10 @@ const Layout: FC<LayoutProps> = ({children}) => {
                     mt="1.5%">
                         <Box>
                         <Messages/>
+                        </Box>
+                        <Box
+                        mt="1.5%">
+                            <Suggest/>
                         </Box>
                     </Box>
                     

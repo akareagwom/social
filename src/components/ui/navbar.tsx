@@ -12,6 +12,7 @@ const Navbar: FC<NavbarProps> = () => {
     return ( 
         <>
         <Box 
+        
         display="flex"
         justifyContent="space-between"
         px="2%"
@@ -33,7 +34,7 @@ const Navbar: FC<NavbarProps> = () => {
                 <Search/>
             </Box>
             <Box
-            w="15%"
+            w="10%"
             alignItems="baseline"
             display="flex"
             justifyContent="space-between">

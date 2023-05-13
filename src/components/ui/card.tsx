@@ -1,5 +1,8 @@
 import { Box, Card,Text,Heading, CardBody, CardHeader, Image, Avatar } from '@chakra-ui/react';
 import {FC} from 'react';
+import {AiFillHeart} from 'react-icons/ai'
+import {BiMessageRounded} from 'react-icons/bi'
+import {BsSend} from 'react-icons/bs'
 // import * as photo from '../../assets/home.png'
 
 interface CardsProps {
@@ -30,7 +33,7 @@ const Cards: FC<CardsProps> = () => {
                         <Text
                         color="#BDBDBD"
                         fontSize="10px">
-                           Active 3h ago
+                           Smallville, Kansas
                         </Text>
                     </Box>
                 </Box>
@@ -47,6 +50,15 @@ const Cards: FC<CardsProps> = () => {
                         w="150%" 
                         borderRadius="10px"
                         />
+                    </Box>
+                    <Box
+                    display="flex"
+                    justifyContent="space-between"
+                    w="20%"
+                    my="2%">
+                        <AiFillHeart color="#F0355B"/>
+                        <BiMessageRounded/>
+                        <BsSend/>
                     </Box>
                     <Text
                     fontSize="12px">
