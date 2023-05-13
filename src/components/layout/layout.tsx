@@ -2,6 +2,7 @@ import { Box, SimpleGrid } from "@chakra-ui/react";
 import { FC, ReactComponentElement, ReactNode } from "react";
 import Navbar from "../ui/navbar";
 import Activity from "../ui/activity";
+import Messages from "../ui/messages";
 
 interface LayoutProps {
     children: ReactNode
@@ -32,7 +33,7 @@ const Layout: FC<LayoutProps> = ({children}) => {
                         {children}
                     </Box>
                     <Box>
-                        <Activity/>
+                        <Messages/>
                     </Box>
                     
                     </SimpleGrid>
