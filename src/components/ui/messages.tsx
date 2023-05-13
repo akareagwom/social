@@ -35,17 +35,26 @@ const Messages: FC<MessagesProps> = () => {
                 </Box>
                 <Box
                 mx="2%"
-                my="10%"
+                mt="10%"
                 >
                     <Search/>
                 </Box>
-            </CardHeader>
-            <CardBody>
-                <Tabs>
-                    <TabList>
-                        <Tab></Tab>
+                <Tabs
+                variant="line"
+                mr="4%"
+                >
+                    <TabList
+                    textAlign="start"
+                    // w="5%"
+                    >
+                        <Tab fontSize="9.5px">Primary</Tab>
+                        <Tab fontSize="9.5px">General</Tab>
+                        <Tab fontSize="9.5px">Requests(2)</Tab>
                     </TabList>
                 </Tabs>
+            </CardHeader>
+            <CardBody>
+                
                 <Box>
                     <Heading
                     fontSize="13px">
