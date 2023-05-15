@@ -4,6 +4,7 @@ import Navbar from "../ui/navbar";
 import Activity from "../ui/activity";
 import Messages from "../ui/messages";
 import Suggest from "../ui/suggest";
+import Explore from "../ui/explore";
 
 interface LayoutProps {
     children: ReactNode
@@ -31,7 +32,7 @@ const Layout: FC<LayoutProps> = ({children}) => {
                         </Box>
                         <Box
                         my="2%">
-                            <Activity/>
+                            <Explore/>
                         </Box>
                     </Box>
                     <Box
