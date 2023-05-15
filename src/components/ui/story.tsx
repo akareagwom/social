@@ -9,15 +9,16 @@ const Story: FC<StoryProps> = () => {
     return ( 
         <>
             <Box
-            w="150%"
+            w="100%"
+            borderRadius="10px"
+            bg="#FFFFFF"
+            zIndex={1}
             >
                 <Box
                 display="flex"
                 justifyContent="space-between"
-                w="100%"
-                p="2%"
-                borderRadius="10px"
-                bg="#FFFFFF"
+                w="120%"
+                p="1%"
                 >
                     <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
                     <Avatar name='Kola Tioluwani' src='https://images.unsplash.com/photo-1588971705973-20c181809c0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80' />

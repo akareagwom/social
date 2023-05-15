@@ -56,7 +56,8 @@ const Layout: FC<LayoutProps> = ({children}) => {
                     </Box>
                     <Box
                     mt="1.5%">
-                        <Box>
+                        <Box
+                        my="2%">
                         <Messages/>
                         </Box>
                         <Box
